@@ -1,0 +1,27 @@
+programa
+{
+	funcao inicio()
+	{
+		inteiro num1, num2, num3, resultado
+
+		escreva("Informe o primeiro número: ")
+		leia(num1)
+
+		escreva("Informe o segundo número: ")
+		leia(num2)
+		
+		escreva("Informe o terceiro número: ")
+		leia(num3)
+		
+		resultado = num1
+
+		se (num2 >= resultado) {
+			resultado = num2
+		}
+		se (num3 >= resultado) {
+			resultado = num3
+		}
+
+		escreva("O maior número entre eles é: ", resultado)
+	}
+}
