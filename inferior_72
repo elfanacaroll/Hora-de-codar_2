@@ -1,0 +1,25 @@
+7. Faça um programa que leia 6 números que o usuário vai informar. Todos os números lidos com valor inferior a 72 devem ser somados.
+Escreva o valor final da soma efetuada e também todos valores que o usuário informou.  
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro i
+		real num, soma = 0.0
+
+		escreva ("Digite 6 números: \n")
+
+		para (i = 1; i <= 6; i++) {
+			leia(num)
+			escreva("Você digitou: "+ num+ "\n")
+
+			se (num < 72) {
+				soma = soma + num
+			}
+		}
+
+		escreva("\n Soma dos valores menores que 72 = "+ soma+ "\n")
+	}
+}
