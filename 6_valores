@@ -1,0 +1,27 @@
+5.  Faça um programa que leia 6 valores informados pelo usuário, calcule,
+exiba os números informados e escreva a média aritmética desses valores lidos.
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real valor, soma = 0.0, media
+		inteiro i
+
+		soma = 0.0
+
+		para (i=1;i<=6;i++){
+		limpa()
+		escreva("Digite o "+i+" Numero :")
+		leia(valor)
+		
+		soma = soma+valor
+		
+		}
+	media = soma/6
+	limpa()
+	escreva("A media é dos números é:" +media+"\n")
+		
+	}
+}
