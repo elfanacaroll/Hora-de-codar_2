@@ -1,0 +1,32 @@
+8. Escreva um programa que calcule a média de quatro números informados pelo usuário, mas somente se esses números forem maiores que 0 e menores que 10. No final, se a média for maior que cinco o usuário receberá uma mensagem "Você passou no teste".
+Em qualquer outra situação, ele receberá uma mensagem de "tente novamente"
+
+
+	  real num, soma, media
+	  inteiro i
+
+	  soma = 0.0
+
+	  para (i=0; i<4; i++){
+	  escreva(" Digite o " + i + "º número (entre 0 e 10):")
+	  leia(num)
+	  
+
+	  se (num > 0  e num <= 10) {
+	    soma = soma + num
+	  } senao{
+	   escreva ("Número inválida!" )
+	   } 
+	 }
+	   
+	media = soma / 4
+	escreva ("\n A média é:" + media)
+	  
+
+	se (media > 5) { 
+	  escreva("\n Você passou no teste ")
+	  } senao{
+	   escreva("\n Tente novamente ")
+	   }
+	}
+}
